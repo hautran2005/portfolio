@@ -12,9 +12,7 @@ const Content = () => (
     <div className="contenido">
         <ParticleHeaderBg/>
         <section className="inicio" id="inicio">
-        
             <div className="titulo">
-            
                 <p data-aos="fade-up" data-aos-delay="600">
                     <FormattedMessage
                         id='greeting'
@@ -24,7 +22,7 @@ const Content = () => (
                 <h1 data-aos="fade-up" data-aos-delay="800">
                     <FormattedMessage
                         id='name'
-                        defaultMessage='I am Nahuel Carrizo'
+                        defaultMessage='I am Trung Hau'
                     />
                 </h1>
                 <p data-aos="fade-up" data-aos-delay="1000">
@@ -40,7 +38,6 @@ const Content = () => (
                     <a href="https://api.whatsapp.com/send?phone=0337062812" target="_blank" rel="noopener noreferrer" data-aos="fade-up" data-aos-delay="1800"><i className="fab fa-whatsapp"></i></a>
                 </div>
                 <div className="wrapper">
-                    
                     <a className="button" href="https://github.com/hautran2005/" target="_blank" rel="noopener noreferrer" data-aos="fade-up" data-aos-delay="1400">
                         <div className="icon">
                             <i className="fab fa-github"></i>
